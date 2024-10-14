@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DessertClicker"
+rootProject.name = "DessertClickerViewModel"
 include(":app")

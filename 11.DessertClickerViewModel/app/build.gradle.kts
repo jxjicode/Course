@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jxji.dessertclicker"
+    namespace = "com.jxji.dessertclickerviewmodel"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jxji.dessertclicker"
+        applicationId = "com.jxji.dessertclickerviewmodel"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -49,6 +49,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
